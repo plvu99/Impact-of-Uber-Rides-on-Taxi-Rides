@@ -102,7 +102,6 @@ This program helps the NYC Taxi and Limousine Commission (TLC) ensure regulatory
 | **Total_amount**        | The total amount charged to passengers. Does not include cash tips.                                                                               |
 | **Congestion_Surcharge**| Total amount collected in trip for NYS congestion surcharge.                                                                                      |
 | **Airport_fee**         | \$1.25 for pick up only at LaGuardia and John F. Kennedy Airports.                                                                                 |
-
 ## Rainfall Data
 
 -  Consider the following meteorological quantities, which are particularly used in weather radar systems.
