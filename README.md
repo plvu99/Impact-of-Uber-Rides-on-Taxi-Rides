@@ -44,3 +44,17 @@
   
   - They cannot pick up passengers below East 96th Street and West 110th Street in Manhattan, or at LaGuardia or John F. Kennedy International Airports.
 
+Total and Average Trips
+Yellow Cabs dominate trip volume in Manhattan for June 2015, with over 11 million total trips and an average of ~372,000 daily trips.
+Uber is second, with about 2 million total trips and ~66,000 daily trips, indicating strong market penetration but still significantly trailing Yellow Cabs.
+Green Cabs show the least activity in Manhattan, likely due to their primary operation in outer boroughs, with only ~460,000 trips and ~15,000 daily trips.
+Day-of-Week Patterns
+Uber trips peak on Tuesdays, with a gradual decline toward Sunday. This may reflect commuting or business-related travel early in the week.
+Yellow Cabs follow a similar trend, peaking on Tuesdays and dropping off on Sundays, though they maintain consistently high volume throughout.
+Green Cabs exhibit more modest fluctuations, but their trend aligns loosely with the others, also peaking mid-week and dipping on Sundays.
+Observations
+Yellow Cab dominance suggests that traditional taxis were still the primary mode of transport in Manhattan in 2015, despite Uber’s rising popularity.
+Weekday demand—especially Tuesday—outpaces weekend use, possibly highlighting commuter-heavy traffic patterns.
+Sunday drop-offs are noticeable across all services, indicating reduced rider activity.
+
+
