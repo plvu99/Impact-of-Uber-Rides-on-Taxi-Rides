@@ -44,7 +44,7 @@ People may opt for rides over walking, biking, or public transport when it rains
 
 ## 📊 Key Findings
 
-### Total and Average Daily Trips in Manhattan
+**1. Total and Average Daily Trips in Manhattan**
 
 | Service     | Total Trips | Average Daily Trips |
 |-------------|-------------|---------------------|
@@ -54,11 +54,11 @@ People may opt for rides over walking, biking, or public transport when it rains
 
 **Yellow Cabs** dominate in volume, but **Uber** shows significant market penetration. **Green Cabs** have the lowest presence in Manhattan, as expected given their service zone restrictions.
 
-### Weekly Patterns
+**2. Weekly Patterns**
 
 **Uber and Yellow Cab rides** peak on **Tuesdays** and fall off on **Sundays**, suggesting strong weekday commuter usage. **Green Cabs** follow a similar but lower-volume trend.
 
-### Regression Results
+**3. Regression Results**
 
 **Model 1** (without controlling for precipitation) estimates that each additional Uber ride is associated with a 4.07 increase in combined Yellow + Green Cab rides. This is highly significant (t = 67.56, p < 0.001). R² = 0.525, meaning about 52.5% of the variation in taxi rides is explained by Uber rides alone.
 
