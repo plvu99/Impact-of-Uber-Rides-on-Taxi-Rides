@@ -12,7 +12,7 @@ _**1. Does an increase in Uber rides impact the number of taxi rides (Yellow + G
 
 _**2. Can Uber ride volume reliably predict taxi ride volume, even after controlling for external factors?**_
 
-The project analyzes over **20 million records** drawn from **four distinct datasets**: Green Cab trips, Yellow Cab trips, Uber pickups, and daily precipitation data in June 2015.
+The project analyzes over **20 million records** drawn from **four distinct datasets**: Green Cab trips, Yellow Cab trips, Uber pickups, and daily precipitation data in June 2015. [Link](https://drive.google.com/drive/folders/1M_XjVQcMo5mZ2diriFbUzLNK6QD4A6dT?usp=sharing)
 
 **June** typically sees higher ride volumes due to warmer weather and tourism, making it ideal for analyzing demand.
 
