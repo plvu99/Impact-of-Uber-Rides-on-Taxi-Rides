@@ -106,13 +106,13 @@ This program helps the NYC Taxi and Limousine Commission (TLC) ensure regulatory
 
 -  Consider the following meteorological quantities, which are particularly used in weather radar systems.
 
-- **Reflectivity:** Simulated from a normal distribution, e.g., $ N(30, 5) \, \text{dBZ} $.
+- **Reflectivity:** Simulated from a normal distribution, e.g., N(30,5) dBZ.
 
   - Reflectivity is a measure of the amount of radar signal that is returned to the radar after hitting precipitation particles (like raindrops, snowflakes, or hailstones).
 
   - Higher values indicate more intense precipitation.
 
-- **Radial Velocity:** Simulated from a uniform distribution, e.g., $ U(-20, 20) \, \text{m/s} $.
+- **Radial Velocity:** Simulated from a uniform distribution, e.g., U(-20, 20) m/s.
 
   - Radial velocity measures the velocity of precipitation particles moving toward or away from the radar.
 
@@ -122,7 +122,7 @@ This program helps the NYC Taxi and Limousine Commission (TLC) ensure regulatory
 
   - Helps detect wind patterns and phenomena such as rotation in storms (used to identify tornadoes).
 
-- **Spectrum Width:** Simulated from a normal distribution, e.g., $ N(5, 1) \, \text{m/s} $.
+- **Spectrum Width:** Simulated from a normal distribution, e.g., N(5, 1) m/s.
 
   - Spectrum width quantifies the variability or spread in radial velocity within a radar sampling volume.
 
@@ -132,10 +132,12 @@ This program helps the NYC Taxi and Limousine Commission (TLC) ensure regulatory
 
   - Indicates turbulence or changes in wind speed/direction within a storm.
 
-- **Precipitation Simulation:** Use a linear combination of the three meteorological quantities to compute hourly precipitation
+- **Precipitation Simulation:**
 
-  - $$\text{Precipitation} = \alpha_1 \times \text{Reflectivity} + \alpha_2 \times \text{Radial Velocity} + \alpha_3 \times \text{Spectrum Width} + \epsilon$$
+  - Use a linear combination of the three meteorological quantities to compute hourly precipitation:
 
-  - Coefficients $ \alpha_1 $, $ \alpha_2 $, $ \alpha_3 $ can be set to realistic weights (e.g., $ 0.6, 0.3, 0.1 $).
+    <img width="667" alt="Screenshot 2025-04-13 at 01 11 38" src="https://github.com/user-attachments/assets/a9ef662b-30f1-45b0-accc-f01e5a1d70dc" />
 
-  - $ \epsilon $ is random noise from $ N(0, \sigma^2 = 4) $.
+  - Coefficients <img width="69" alt="Screenshot 2025-04-13 at 01 12 27" src="https://github.com/user-attachments/assets/ef668684-7884-4fee-96fc-2161c4193464" /> can be set to realistic weights (e.g., 0.6, 0.3, 0.1).
+
+  - <img width="9" alt="Screenshot 2025-04-13 at 01 16 30" src="https://github.com/user-attachments/assets/15d6d306-f3ca-4be6-be88-80c1a3388de8" /> is random noise from <img width="100" alt="Screenshot 2025-04-13 at 01 16 40" src="https://github.com/user-attachments/assets/fc469dd3-f88c-4d5d-a9db-e52ba0108107" />.
