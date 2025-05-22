@@ -22,7 +22,7 @@ People may opt for rides over walking, biking, or public transport when it rains
 
 ## 💡 Proposed Solution
 
-**1. Data Processing**
+**1. Data Preprocessing**
 
 - Filter taxi and Uber trip data for Manhattan in June 2015.
   
